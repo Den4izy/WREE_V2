@@ -1,0 +1,11 @@
+.App {
+    height: 95vh;
+    display: grid;
+    grid-template-areas:
+    "h h"
+    "n m"
+    "f f";
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 50px 1fr 40px;
+    color: green;
+}
