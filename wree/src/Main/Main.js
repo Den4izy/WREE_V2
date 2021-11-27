@@ -1,9 +1,10 @@
 import './Main.css';
 
-function Main(){
+function Main() {
     return (
-        <div className="Main"></div>
+        <div className="Main">
+
+        </div>
     );
 }
-
 export default Main;
