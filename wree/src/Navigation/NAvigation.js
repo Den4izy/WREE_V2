@@ -10,10 +10,8 @@ function Navigation() {
                 <ul>
                     <li><Link to="/">Main</Link></li>
                     <li><Link to="/about">About</Link></li>
-                    <li>Завдання</li>
-                    <ul>
-                        <li><Link to="/taskDay">Завдання</Link></li>
-                    </ul>
+                    <li><Link to="/taskDay">Завдання</Link></li>
+                    <li><Link to="/Events">Events</Link></li>
                 </ul>
             </div>
         </div>

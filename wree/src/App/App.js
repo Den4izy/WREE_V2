@@ -1,12 +1,14 @@
 import Header from '../Header/Header';
-import Navigation from '../Navigation/NAvigation';
+import Navigation from '../Navigation/Navigation';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 import TaskDay from '../TaskDay/TaskDay';
+import Events from '../Events/Events';
 import './App.css';
 
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
                 <Routes>
 
                     <Route path="/taskDay" element={<TaskDay />} />
+                    <Route path="/Events" element={<Events />} />
 
 
                 </Routes>

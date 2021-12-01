@@ -1,4 +1,7 @@
 .TaskDay {
-    background-color: burlywood;
+    background-color: greenyellow;
     grid-area: m;
+}
+#list2{
+    color: red;
 }
