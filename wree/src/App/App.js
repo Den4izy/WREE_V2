@@ -4,10 +4,17 @@ import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 import TaskDay from '../TaskDay/TaskDay';
 import Events from '../Events/Events';
+//import State from '../State/State';
+import State1 from '../State/State';
+
 import './App.css';
 
 
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+//import Cl from '../State/State';
+
 
 
 
@@ -24,6 +31,8 @@ function App() {
 
                     <Route path="/taskDay" element={<TaskDay />} />
                     <Route path="/Events" element={<Events />} />
+                    <Route path="/State1" element={<State1 />} />
+                    <Route path="*" element={<Main />} />
 
 
                 </Routes>

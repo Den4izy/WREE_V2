@@ -12,6 +12,7 @@ function Navigation() {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/taskDay">Завдання</Link></li>
                     <li><Link to="/Events">Events</Link></li>
+                    <li><Link to="/State1">State</Link></li>
                 </ul>
             </div>
         </div>
