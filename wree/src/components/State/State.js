@@ -25,7 +25,7 @@ class State1 extends React.Component {               //Для створення
     render() {                                       //Створюємо render який перемальовує данній компонент
         return (                                     //Всередині нього повинен бути return в якому і малюється компонент
             < div className="state" >
-                <h1>State</h1>
+                <h1>State1 with OOP</h1>
 
                 <p>State потрібен для того щоб при зміні данних в компоненті їх автоматично виводило</p>
                 <p>Спосіб ООП</p>
